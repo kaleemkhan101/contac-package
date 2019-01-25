@@ -9,7 +9,7 @@
             "email": "kaleemkhan101@yahoo.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
 
     "autoload": 
