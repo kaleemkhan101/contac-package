@@ -1,0 +1,25 @@
+{
+    "name": "kaleemkhan101/contact",
+    "description": "This will send email to admin and save it to database.",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaleemullah Khan",
+            "email": "kaleemkhan101@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "Kaleem\\Contact\\": "src/"
+        }
+    },
+
+
+
+}
