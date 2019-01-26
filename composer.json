@@ -9,6 +9,7 @@
             "email": "kaleemkhan101@yahoo.com"
         }
     ],
+
     "minimum-stability": "stable",
     "require": {},
 
@@ -18,8 +19,22 @@
         {
             "Kaleem\\Contact\\": "src/"
         }
+    },
+
+
+
+    "extra": {
+    "laravel": {
+    "providers": [
+                    "Kaleem\\Contact\\ContactServiceProvider"
+                ],
+    "aliases": {
+    "Debugbar": "Barryvdh\\Debugbar\\Facade"
     }
-
-
-
+    }
+    }
 }
+
+
+
+
